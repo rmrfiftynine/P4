@@ -14,18 +14,19 @@ main>p{
   border: dashed red 2px;
 }
 h4{
-  font-size:1.75vw;
+  
 }
 /* Card */
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(200,0,0,0.9);
     transition: 0.3s;
-    width: 20%;
+    height:auto;
+    width: 31%;
     float:left;
-    margin: 0 20px;
+    margin: 0 1%;
     background-color: rgb(76, 239, 198);
-    position: relative;
+    position: static;
   }
   
   a>.card{
@@ -38,7 +39,7 @@ h4{
   
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    padding: 0.29717682% 1.111%;
   }
   .card img{
     width:100%;
@@ -46,22 +47,17 @@ h4{
    
 
   }
-  .cards{
-    width:150% !important;
-  }
+  
   footer{
     clear:left;
   }
-  @media only screen and (max-width:540px){
+  @media only screen and (max-width:800px) {
     .card{
       float:none;
-      width:68%;
-      margin:0;
+      width:100%;
     }
     h4{
       font-size: 100%;
     }
-    footer{
-      clear:left;
-    }
+    
   }
