@@ -10,7 +10,7 @@ main h1{
 }
 main>p{
   text-indent: 5%;
-  font-size: 1.25vw;
+  font-size: 2vw;
   border: dashed red 2px;
 }
 h4{
