@@ -1,8 +1,8 @@
 body{
-    background-color: #2eaad36d;
+    background-color: #d4385d;
 }
 div.container-fluid{
-    background-color: #900e2c;
+    background-color: #086483;
 }
 main h1{
     text-align: center;
@@ -11,30 +11,22 @@ main h1{
 main>p{
   text-indent: 5%;
   font-size: 2vw;
-  border: dashed red 2px;
+  border: solid red 2px;
 }
 h4{
   
 }
-#current{
-color: #2eaad3 ;
-font-weight: bold;
-}
 .dropdown-menu{
     background-color: orange;
-  }
-  a.dropdown-item:hover{
+}
+a.dropdown-item:hover{
     font-style: italic;
     color: greenyellow;
     background-color: #f0567a;
-  }
-a#cur{
-  color: #2eaad3 ;
-  font-weight: bold; 
 }
 a.nav-link:hover{
-  font-style: italic;
-  color: darkblue !important;
+    font-style: italic;
+    color: darkblue !important;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(200,0,0,0.9);
@@ -51,6 +43,7 @@ a.nav-link:hover{
     color:red;
   }
   
+  
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
@@ -64,10 +57,6 @@ a.nav-link:hover{
    
 
   }
-
-  .container{
-    background-color: #2eaad3;
-  }
   
   footer{
     clear:left;
@@ -76,7 +65,7 @@ a.nav-link:hover{
     right:0;
     bottom:0;
   }
-  @media only screen and (max-width:800px) {
+  @media only screen and (max-width:700px) {
     .card{
       float:none;
       width:100%;
